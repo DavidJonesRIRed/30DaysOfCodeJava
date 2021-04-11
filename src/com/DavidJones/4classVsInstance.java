@@ -1,9 +1,7 @@
-package com.DavidJones;
-
 import java.io.*;
 import java.util.*;
 
-class Person {
+public class Person {
     private int age;
 
     public Person(int initialAge) {
@@ -24,7 +22,7 @@ class Person {
         else if(age >= 13 && age < 18){
             text = "You are a teenager.";
         }
-        else if(age >= 18){
+        else if (age >= 18){
             text = "You are old.";
         }
         System.out.println(text);
@@ -34,9 +32,7 @@ class Person {
         // Increment this person's age.
         age = age + 1;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
