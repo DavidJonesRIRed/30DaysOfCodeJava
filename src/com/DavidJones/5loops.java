@@ -1,33 +1,28 @@
 import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
 import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
 public class Solution {
 
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner scan = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        int howMany = scan.nextInt();
-        scan.nextLine();
+        scanner.close();
 
-        for(int i = 0; i < howMany; i++){
-            String newString = scan.nextLine();
-            char[] ch = newString.toCharArray();
-            String finalString = "";
+        int result = 0;
 
-            for(int j = 0; j < ch.length; j += 2){
-                finalString = finalString + ch[j];
-            }
-
-            finalString = finalString + " ";
-
-            for(int k = 1; k < ch.length; k += 2){
-                finalString = finalString + ch[k];
-            }
-
-            System.out.println(finalString);
-
+        for(int i = 1; i < 11; i++){
+            result = n*i;
+            System.out.println(n + " x " + i + " = " + result);
         }
-
     }
 }
