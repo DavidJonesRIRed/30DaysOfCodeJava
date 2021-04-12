@@ -7,6 +7,13 @@
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/3conditionalStatements.java" />
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/4classVsInstance.java" />
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/5loops.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/9recursion3.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/7arrays.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/11twodArrays.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/6reviewLoops.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/10binaryNumbers.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/12inheritance.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/8dictionariesAndMaps.java" />
     </excludeFromCompile>
   </component>
 </project>

@@ -1,5 +1,3 @@
-package com.DavidJones;
-
 import java.util.*;
 
 class Person {
@@ -79,7 +77,7 @@ class Student extends Person{
     }
 }
 
-public class Main {
+class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String firstName = scan.next();
