@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/1dataTypes.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/2operators.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/3conditionalStatements.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/4classVsInstance.java" />
+    </excludeFromCompile>
+  </component>
+</project>
