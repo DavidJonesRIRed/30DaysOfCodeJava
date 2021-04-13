@@ -1,55 +1,36 @@
 package com.DavidJones;
 
-import java.io.*;
-import java.util.*;
-
-class Person {
-    private int age;
-
-    public Person(int initialAge) {
-        // Add some more code to run some checks on initialAge
-        if (initialAge < 0) {
-            System.out.println("Age is not valid, setting age to 0.");
-            initialAge = 0;
-        }
-        age = initialAge;
-    }
-
-    public void amIOld() {
-        // Write code determining if this person's age is old and print the correct statement:
-        String text = "";
-        if(age < 13){
-            text = "You are young.";
-        }
-        else if(age >= 13 && age < 18){
-            text = "You are a teenager.";
-        }
-        else if(age >= 18){
-            text = "You are old.";
-        }
-        System.out.println(text);
-    }
-
-    public void yearPasses() {
-        // Increment this person's age.
-        age = age + 1;
-    }
-}
+import java.util.Scanner;
 
 public class Main {
+
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-        for (int i = 0; i < T; i++) {
-            int age = sc.nextInt();
-            Person p = new Person(age);
-            p.amIOld();
-            for (int j = 0; j < 3; j++) {
-                p.yearPasses();
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan = new Scanner(System.in);
+
+        int howMany = scan.nextInt();
+        scan.nextLine();
+
+        for(int i = 0; i < howMany; i++){
+            String newString = scan.nextLine();
+            char[] ch = newString.toCharArray();
+            String finalString = "";
+
+            for(int j = 0; j < ch.length; j += 2){
+                finalString = finalString + ch[j];
             }
-            p.amIOld();
-            System.out.println();
+
+            finalString = finalString + " ";
+
+            for(int k = 1; k < ch.length; k += 2){
+                finalString = finalString + ch[k];
+            }
+
+            System.out.println(finalString);
+
         }
-        sc.close();
+
     }
 }
