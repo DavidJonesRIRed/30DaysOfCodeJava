@@ -14,6 +14,12 @@
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/10binaryNumbers.java" />
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/12inheritance.java" />
       <file url="file://$PROJECT_DIR$/src/com/DavidJones/8dictionariesAndMaps.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/13AbstractClasses.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/14scope.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/15linkedLists.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/16exceptionsStringToInteger.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/17moreExceptions.java" />
+      <file url="file://$PROJECT_DIR$/src/com/DavidJones/18QueuesAndStacks.java" />
     </excludeFromCompile>
   </component>
 </project>

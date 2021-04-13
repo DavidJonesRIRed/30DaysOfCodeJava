@@ -1,4 +1,3 @@
-package com.DavidJones;
 import java.io.*;
 import java.util.*;
 
@@ -11,7 +10,6 @@ class Calculator implements AdvancedArithmetic {
         int dSum = 0;
 
         for(int i = n; i >= 1; i--){
-            System.out.println("here: " + n + " " + i);
             if((n%i)==0){
                 dSum = dSum + i;
 
@@ -21,7 +19,7 @@ class Calculator implements AdvancedArithmetic {
     }
 }
 
-class Main {
+class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
